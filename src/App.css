@@ -66,6 +66,12 @@ form {
 }
 
 @media (max-width: 500px) {
+  
+body {
+  background-color: #a6acaf;
+  font-family:'Times New Roman', Times, serif;
+}
+
   #test {
   text-align: center;
   position: relative;
