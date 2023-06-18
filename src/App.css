@@ -1,6 +1,6 @@
 body {
   background-color: #a6acaf;
-  font-family: cursive;
+  font-family:'Times New Roman', Times, serif;
 }
 
 #test {
@@ -49,7 +49,7 @@ body {
 input[type="text"] {
   padding: 10px;
   border: 0px;
-  width: 300px;
+  width: 400px;
   border-radius: 10px;
   font-size: 15px;
 }
@@ -61,11 +61,11 @@ form {
 #test #test2 ul > li {
   text-align: left;
   font-size: 20px;
+  margin-left:90px;
   /* color: #27AE60; */
 }
 
 @media (max-width: 500px) {
-
   #test {
   text-align: center;
   position: relative;
@@ -118,5 +118,9 @@ form {
 
   #test #test2 ul > li {
     font-size: 25px;
-  }
+  text-align: left;
+  margin-left:10px;
+  /* color: #27AE60; */
+}
+
 }
