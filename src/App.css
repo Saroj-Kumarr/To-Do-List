@@ -1,6 +1,6 @@
 body {
   background-color: #a6acaf;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #test {
@@ -11,22 +11,26 @@ body {
   top: 10%;
   margin-left: 20%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  background-color: #ECF0F1;
+  background-color: #ecf0f1;
   border-radius: 20px;
 }
 
 #btn {
   padding: 10px;
-  border: 2.5px solid black;
   border-radius: 5px;
   font-weight: 700;
   font-size: 15px;
   font-family: cursive;
   margin-left: 10px;
+  background-color: #f5b7b1;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight:1000;
+  color: #34495e;
 }
 
 #btn:hover {
-  background-color: #ECF0F1;
 }
 
 #test h3 {
@@ -40,6 +44,7 @@ body {
   font-size: 25px;
   padding: 10px;
   color: #34495e;
+  border:2px solid black;
 }
 
 #test p {
@@ -52,6 +57,11 @@ input[type="text"] {
   width: 400px;
   border-radius: 10px;
   font-size: 15px;
+  border:1px solid black;
+}
+
+input[type="text"]:focus{
+  border:2px solid black;
 }
 
 form {
@@ -61,32 +71,31 @@ form {
 #test #test2 ul > li {
   text-align: left;
   font-size: 20px;
-  margin-left:90px;
+  margin-left: 90px;
   /* color: #27AE60; */
 }
 
 @media (max-width: 500px) {
-  
-body {
-  background-color: #a6acaf;
-  font-family:'Times New Roman', Times, serif;
-}
+  body {
+    background-color: #a6acaf;
+    font-family: "Times New Roman", Times, serif;
+  }
 
   #test {
-  text-align: center;
-  position: relative;
-  height: 80%;
-  width:100%;
-  top: 10%;
-  margin-left: 20%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  background-color: #ECF0F1;
-  border-radius: 20px;
-}
+    text-align: center;
+    position: relative;
+    height: 80%;
+    width: 100%;
+    top: 10%;
+    margin-left: 20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    background-color: #ecf0f1;
+    border-radius: 20px;
+  }
 
-#btn {
- display: none;
-}
+  #btn {
+    display: none;
+  }
 
   #test h3 {
     margin-left: 13%;
@@ -104,29 +113,27 @@ body {
   input[type="text"] {
     padding: 7px;
     border: 0px;
-    width:95%;
+    width: 95%;
     border-radius: 10px;
     font-size: 15px;
   }
 
-#test {
-  text-align: center;
-  position: absolute;
-  width: 60%;
-  height: 80%;
-  top: 10%;
-  margin-left: 20%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  background-color: #ECF0F1;
-  border-radius: 20px;
-}
-
+  #test {
+    text-align: center;
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    top: 10%;
+    margin-left: 20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    background-color: #ecf0f1;
+    border-radius: 20px;
+  }
 
   #test #test2 ul > li {
     font-size: 25px;
-  text-align: left;
-  margin-left:10px;
-  /* color: #27AE60; */
-}
-
+    text-align: left;
+    margin-left: 10px;
+    /* color: #27AE60; */
+  }
 }
